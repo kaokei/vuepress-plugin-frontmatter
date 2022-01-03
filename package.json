@@ -1,7 +1,7 @@
 {
-  "name": "@kaokei/vuepress-plugin-tongji",
+  "name": "@kaokei/vuepress-plugin-frontmatter",
   "version": "1.0.2",
-  "description": "vuepress@1.x插件，支持各种平台的统计脚本。",
+  "description": "vuepress@1.x插件，基于vdoing的主题，增加可以自动化生成frontmatter的命令",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "vue",
     "vuepress",
     "generator",
-    "tongji"
+    "frontmatter"
   ],
   "author": "kaokei <kaokei.rst@gmail.com>",
   "license": "MIT",
@@ -20,10 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaokei/vuepress-plugin-tongji.git"
+    "url": "git+https://github.com/kaokei/vuepress-plugin-frontmatter.git"
   },
   "bugs": {
-    "url": "https://github.com/kaokei/vuepress-plugin-tongji/issues"
+    "url": "https://github.com/kaokei/vuepress-plugin-frontmatter/issues"
   },
-  "homepage": "https://github.com/kaokei/vuepress-plugin-tongji#readme"
+  "homepage": "https://github.com/kaokei/vuepress-plugin-frontmatter#readme",
+  "devDependencies": {
+    "vuepress-theme-vdoing": "^1.8.5"
+  }
 }
