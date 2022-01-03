@@ -17,6 +17,8 @@ module.exports = {
 ```
 
 > 需要在项目的 package.json 文件的 scripts 部分新增`"fmt": "vuepress fmt docs",`
+> 当新建一个新的 markdown 文件时，默认是一个空文件，当然也没有`frontmatter`，此时可以执行命令`npm run fmt`
+> 之所以增加这个命令，是因为`vdoing`主题默认只支持`npm run dev`和`npm run build`这两个命令可以自动生成`frontmatter`
 
 ## 其他
 

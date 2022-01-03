@@ -1,6 +1,6 @@
 {
   "name": "@kaokei/vuepress-plugin-frontmatter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vuepress@1.x插件，基于vdoing的主题，增加可以自动化生成frontmatter的命令",
   "main": "index.js",
   "scripts": {
