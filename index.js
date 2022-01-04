@@ -7,8 +7,8 @@ const readFileList = require("vuepress-theme-vdoing/node_utils/modules/readFileL
 module.exports = (options = {}, context) => {
   return {
     async extendPageData($page) {
-      if ($page.relativePath.indexOf("_posts") === 0) {
-        if ($page.frontmatter.showSidebar !== true) {
+      if ($page.relativePath && $page.relativePath.indexOf("_posts") === 0) {
+        if ($page.frontmatter && $page.frontmatter.showSidebar !== true) {
           $page.frontmatter.showSidebar = false;
         }
       }
